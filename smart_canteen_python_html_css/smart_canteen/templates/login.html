@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Canteen Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>🍽 Smart Canteen</h2>
+    <nav>
+        <a href="/login.html">Login</a>
+        <a href="/register.html">Student Register</a>
+    </nav>
+</header>
+
+<section class="login-hero">
+    <h1>Welcome to Smart Canteen</h1>
+    <p>Login to order your favourite food easily.</p>
+</section>
+
+<main class="login-container">
+
+    <!-- Registration / Login Messages -->
+    <!-- PAGE_CONTENT -->
+
+    <section class="login-card">
+
+        <h2>🎓 Student Login</h2>
+        <p>Login using your registered student account.</p>
+
+        <form action="/student_login" method="POST">
+
+            <label>Email Address</label>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Enter your password"
+                   required>
+
+            <button type="submit">Student Login</button>
+
+        </form>
+
+        <p>
+            Don't have an account?
+            <a href="/register.html">Register here</a>
+        </p>
+
+    </section>
+
+
+    <section class="login-card">
+
+        <h2>👨‍💼 Supervisor Login</h2>
+        <p>Login to manage canteen orders.</p>
+
+        <form action="/supervisor_login" method="POST">
+
+            <label>Username</label>
+            <input type="text"
+                   name="username"
+                   placeholder="Enter supervisor username"
+                   required>
+
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Enter supervisor password"
+                   required>
+
+            <button type="submit">Supervisor Login</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Smart Canteen. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

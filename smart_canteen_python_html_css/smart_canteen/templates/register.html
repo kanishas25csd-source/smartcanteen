@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration - Smart Canteen</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>🍽 Smart Canteen</h2>
+
+        <nav>
+            <a href="/login.html">Login</a>
+            <a href="/register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="login-hero">
+        <h1>Create Your Student Account</h1>
+        <p>Register to order food and track your canteen orders.</p>
+    </section>
+
+    <main class="login-container">
+
+        <!-- PAGE_CONTENT -->
+
+        <section class="login-card">
+
+            <h2>Student Registration</h2>
+
+            <form action="/register_student" method="POST">
+
+                <label>Student Name</label>
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="Create a password"
+                    minlength="6"
+                    required
+                >
+
+                <label>Confirm Password</label>
+
+                <input
+                    type="password"
+                    name="confirm_password"
+                    placeholder="Confirm your password"
+                    minlength="6"
+                    required
+                >
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+            <p>
+                Already have an account?
+                <a href="/login.html">Login here</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Smart Canteen. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

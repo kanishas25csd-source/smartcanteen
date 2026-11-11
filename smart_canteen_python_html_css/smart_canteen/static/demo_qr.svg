@@ -1,0 +1,36 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210">
+    <rect width="210" height="210" fill="white"/>
+
+    <g fill="black">
+        <!-- Top left finder pattern -->
+        <path d="M10 10h60v60H10z M20 20v40h40V20z M30 30h20v20H30z" fill-rule="evenodd"/>
+
+        <!-- Top right finder pattern -->
+        <path d="M140 10h60v60h-60z M150 20v40h40V20z M160 30h20v20h-20z" fill-rule="evenodd"/>
+
+        <!-- Bottom left finder pattern -->
+        <path d="M10 140h60v60H10z M20 150v40h40v-40z M30 160h20v20H30z" fill-rule="evenodd"/>
+
+        <!-- Decorative QR-like pattern -->
+        <path d="
+        M80 10h10v10H80z M100 10h10v10h-10z M120 20h10v10h-10z
+        M80 30h10v10H80z M100 40h10v10h-10z M120 40h10v10h-10z
+        M80 60h10v10H80z M100 60h10v10h-10z M130 60h10v10h-10z
+        M80 80h10v10H80z M100 80h10v10h-10z M120 80h10v10h-10z
+        M140 80h10v10h-10z M160 80h10v10h-10z M190 80h10v10h-10z
+        M10 80h10v10H10z M30 80h10v10H30z M50 80h10v10H50z
+        M20 100h10v10H20z M40 100h10v10H40z M60 100h10v10H60z
+        M80 100h10v10H80z M110 100h10v10h-10z M130 100h10v10h-10z
+        M150 100h10v10h-10z M180 100h10v10h-10z
+        M10 120h10v10H10z M30 120h10v10H30z M50 120h10v10H50z
+        M80 120h10v10H80z M100 120h10v10h-10z M120 120h10v10h-10z
+        M150 120h10v10h-10z M170 120h10v10h-10z
+        M80 140h10v10H80z M100 140h10v10h-10z M120 140h10v10h-10z
+        M140 150h10v10h-10z M160 150h10v10h-10z M190 150h10v10h-10z
+        M80 170h10v10H80z M100 170h10v10h-10z M120 170h10v10h-10z
+        M150 180h10v10h-10z M180 180h10v10h-10z
+        M80 190h10v10H80z M110 190h10v10h-10z M130 190h10v10h-10z
+        "/>
+    </g>
+</svg>
